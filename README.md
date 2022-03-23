@@ -16,7 +16,24 @@ Therefore, different functions were included.
 
 ### 1.	loop () ###
 
-a.	 Checking if there was an input vial serial port
+a.	 Checking if there was an input vial serial port: Here is a  list for possible commands:
+ “0"  
+ "1"
+ "2"
+ "3"       
+ "4"       
+ "5"       
+ "6"       
+ "7"       
+ "8"       
+ "9"       
+ "h"      pick up
+ "l"      hang up
+ "m"      menu
+ "s"      mute  
+ "u"      up
+ "d"      down  
+
 b.	Detecting an incoming call. Therefore the signal of the LED from the DECT phone signals an incoming call by blinking was detected with a phototransistor. To be sure that LED is really off (no incoming call) and that there is not the short time between two ON phases, we repeat the checking in a loop.
 c.	Checking if there was a process of picking up / hanging up the phone. We have to detect the process of picking up / hanging up, because we only have to send a short signal to the DECT button matrix.
 d.	Checking if there was a dialling process after picking up the handset. The dialling plate has four cables: two for the dialling process and two for the pulses while dialling. If a dialling process is detected, the number of pulses will be counted. After the dialling process is finished the number of counted pulses is the current dialled number.
