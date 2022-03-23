@@ -53,6 +53,17 @@ The outputs of the pins for port A and port B were set to HIGH for nearly 125ms.
 ### 4.	linkFritz () and linkBasis () ###
 
 Here are a sequences of keystrokes to connect the DECT to a basis or to a fritzBox.
+If you use another DECT basis than the original one or a fritzBox you can change the seqence for automated connection easily under 'void linkBasis ()' or 'void linkFritz ()'. Here is a list of commands and what it means:
+
+
+matrixCalc("m") means: press 'menu'
+matrixCalc("d") means: press 'down'
+matrixCalc("u") means: press 'up'
+matrixCalc("h") means: press 'pick up'
+matrixCalc("l") means: press 'hang up'
+matrixCalc("s") means: press 'mute'
+
+matrixCalc("0"): press '0' (and all other numbers of course)
 
 
 ### 5.	ring () ###
