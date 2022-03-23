@@ -13,6 +13,7 @@ The function of this code is:
 
 Therefore, different functions were included.
 
+
 ### 1.	loop () ###
 
 a.	 Checking if there was an input vial serial port
